@@ -9,14 +9,17 @@ Everything runs **on your own computer** with open-source models. No paid AI ser
 
 ## 1. The problem
 
-Banks, insurers and government offices work with long PDFs such as loan agreements, policy terms and circulars.
+Banks, insurers and government offices work with long PDFs such as loan agreements, policy terms,verification documents and circulars which contains lots of contradictions,misspelling and many humanly mistakes which is very common in India because 1. It is till done by mostly one or two humans which is very tedious task.
+2. We have less Officials/Persons per customer/pupils.
+3. We don't have an AI-powered assistant which can help to verify document easily.
+
 Normal AI chatbots have three problems with them:
 
 1. They **invent answers** when the document does not say.
 2. They **miss conflicts**, for example one page says "2%" and another says "3%".
 3. They **don't know which version is current** when a document has been amended several times.
 
-## 2. What VeriDoc does
+## 2. What Veritas does
 
 | Feature | What it means in simple words |
 |---|---|
@@ -35,7 +38,7 @@ Normal AI chatbots have three problems with them:
   Your PDFs
      |
      v
- 1. READ        Split each PDF into small pieces and remember the page number of each piece.
+ 1. READ        Split each PDF into small pieces and remember the context of each piece.
      |
      v
  2. FIND        When you ask a question, search all PDFs for the most relevant pieces.
@@ -57,7 +60,7 @@ Normal AI chatbots have three problems with them:
                 (or "I don't have proof" if nothing could be verified).
 ```
 
-**The key idea:** the AI is only allowed to *propose*. Our own code *checks* every claim against the real PDF text.
+**The key idea:** the AI is only allowed to *propose*. Our own code *checks* every claim against the real PDF text and OCR.
 
 ## 4. Models used (all open source, all local)
 
