@@ -9,7 +9,8 @@ Everything runs **on your own computer** with open-source models. No paid AI ser
 
 ## 1. The problem
 
-Banks, insurers and government offices work with long PDFs such as loan agreements, policy terms,verification documents and circulars which contains lots of contradictions,misspelling and many humanly mistakes which is very common in India because 1. It is till done by mostly one or two humans which is very tedious task.
+Banks, insurers and government offices work with long PDFs such as loan agreements, policy terms,verification documents and circulars which contains lots of contradictions,misspelling and many humanly mistakes which is very common in India because :
+1. It is till done by mostly one or two humans which is very tedious task.
 2. We have less Officials/Persons per customer/pupils.
 3. We don't have an AI-powered assistant which can help to verify document easily.
 
